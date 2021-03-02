@@ -22,7 +22,7 @@ def detect_faces_from_localfile(photo):
     return response
 
 def main():
-    photo='sample2.jpg'
+    photo='sample.jpg'
     faceslist=[]
     image = Image.open(open(photo,'rb'))
     iwidth,iheight=image.size
